@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kabigonFund05-common-util" />
+        <module name="kabigonFund11-member-redis-provider" />
+        <module name="kabigonFund03-admin-component" />
+        <module name="kabigonFund17-member-api" />
+        <module name="kabigon02-admin-webUI" />
+        <module name="kabigonFund08-member-eureka" />
+        <module name="kabigonFund14-member-order-consumer" />
+        <module name="kabigonFund16-member-zuul" />
+        <module name="kabigonFund06-common-reverse" />
+        <module name="kabigonFund12-member-authentication-consumer" />
+        <module name="kabigonFund10-member-mysql-provider" />
+        <module name="kabigonFund09-member-entity" />
+        <module name="kabigonFund04-admin-entity" />
+        <module name="kabigonFund15-member-pay-consumer" />
+        <module name="kabigonFund13-member-project-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kabigonFund02-admin-webUI" target="1.8" />
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

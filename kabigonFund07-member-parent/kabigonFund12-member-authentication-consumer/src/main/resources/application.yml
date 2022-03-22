@@ -1,0 +1,27 @@
+server:
+  port: 4000
+spring:
+  application:
+    name: kabigon-crowd-auth
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  redis:
+    host: 192.168.169.128
+  session:
+    store-type: redis
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka
+short:
+  message:
+    accessKeyId: LTAI5t6SwYeFrQhxxNv7yGsr
+    accessKeySecret: 9lBJOVRdLbTWvr4jp7ME01sZDmXN6k
+    SignName: 阿里云短信测试
+    TemplateCode: SMS_154950909
+ribbon:
+  ReadTimeOut: 10000
+  ConnectTimeout: 10000

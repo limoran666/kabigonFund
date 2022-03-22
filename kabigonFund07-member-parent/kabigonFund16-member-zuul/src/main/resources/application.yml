@@ -1,0 +1,33 @@
+server:
+  port: 81
+spring:
+  application:
+    name: kabigon-crowd-zuul
+  redis:
+    host: 192.168.169.128
+  session:
+    store-type: redis
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka
+zuul:
+  ignored-services: "*"
+  sensitive-headers: "*"
+  routes:
+    crowd-portal:
+      service-id: kabigon-crowd-auth
+      path: /**
+    crowd-project:
+      service-id: kabigon-crowd-project
+      path: /project/**
+    crowd-order:
+      service-id: kabigon-crowd-order
+      path: /order/**
+    crowd-pay:
+      service-id: kabigon-crowd-pay
+      path: /pay/**
+
+ribbon:
+  ReadTimeOut: 10000
+  ConnectTimeout: 10000

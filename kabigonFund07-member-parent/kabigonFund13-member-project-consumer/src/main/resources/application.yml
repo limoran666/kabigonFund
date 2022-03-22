@@ -1,0 +1,23 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: kabigon-crowd-project
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  redis:
+    host: 192.168.169.128
+  session:
+    store-type: redis
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka
+aliyun:
+  oss:
+    access-key-id: LTAI5t7tCDknYQkXUVbwadXv
+    access-key-secret: kOk1jdOhJx1z88PGXcZ4w4XEigAizu
+    bucket-domain: morange666.oss-cn-shanghai.aliyuncs.com
+    bucket-name: morange666
+    end-point: oss-cn-shanghai.aliyuncs.com

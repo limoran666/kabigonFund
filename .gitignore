@@ -1,0 +1,17 @@
+# Project exclude paths
+/kabigonFund01-admin-parent/kabigonFund02-admin-webUI/target/
+/kabigonFund01-admin-parent/kabigonFund03-admin-component/target/
+/kabigonFund01-admin-parent/kabigonFund04-admin-entity/target/
+/kabigonFund05-common-util/target/
+/kabigonFund06-common-reverse/target/
+/kabigonFund07-member-parent/kabigonFund08-member-eureka/target/
+/kabigonFund07-member-parent/kabigonFund09-member-entity/target/
+/kabigonFund07-member-parent/kabigonFund10-member-mysql-provider/target/
+/kabigonFund07-member-parent/kabigonFund11-member-redis-provider/target/
+/kabigonFund07-member-parent/kabigonFund12-member-authentication-consumer/target/
+/kabigonFund07-member-parent/kabigonFund13-member-project-consumer/target/
+/kabigonFund07-member-parent/kabigonFund14-member-order-consumer/target/
+/kabigonFund07-member-parent/kabigonFund15-member-pay-consumer/target/
+/kabigonFund07-member-parent/kabigonFund16-member-zuul/target/
+/kabigonFund07-member-parent/kabigonFund17-member-api/target/
+/out/
